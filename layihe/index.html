@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <div class="yellow"></div>
+      <h1>To-do List</h1>
+
+      <!-- Container to display added notes -->
+      <div class="notes"></div>
+
+      <div class="input-container">
+        <input
+          type="text"
+          name="note"
+          id="note"
+          placeholder="Enter your note..."
+        />
+        <img
+          src="images/xwhite.svg"
+          alt="Clear"
+          id="clear-btn"
+          class="icon clear-icon"
+        />
+        <img
+          src="images/sortdownwhite.svg"
+          alt="Sort"
+          id="sort-btn"
+          class="icon sort-icon"
+        />
+      </div>
+
+      <!-- Bottom bar: "Add" text on the left and a "+" button on the right -->
+      <div class="bottom">
+        <p class="add-text" id="add-btn">Add</p>
+        <div class="plus">
+          <p>+</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

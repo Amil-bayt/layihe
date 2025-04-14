@@ -1,0 +1,188 @@
+/* Reset and basic styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main container styling */
+.box {
+  width: 336px;
+  background-color: #fff;
+  border: 1px solid rgba(196, 196, 196, 1);
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Top colored stripe */
+.yellow {
+  background-color: rgba(255, 220, 64, 1);
+  height: 28px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Title styling */
+h1 {
+  margin: 15px 0;
+  font-size: 24px;
+}
+
+/* Container for the input and icons */
+.input-container {
+  position: relative;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px 40px 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Icon common styles */
+.icon {
+  cursor: pointer;
+}
+
+
+.clear-icon:hover {
+  content: url('images/xhover.svg');
+}
+
+/* Sort icon positioned above the input at the right */
+.sort-icon {
+  position: absolute;
+  right: 0;
+  top: -30px;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+}
+
+
+/* Notes container styling */
+.notes {
+  margin: 10px auto;
+  width: 80%;
+  text-align: left;
+}
+
+.note-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f5f5f5;
+  padding: 6px 12px;
+  margin: 6px auto;
+  width: 80%;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.note-item span {
+  flex-grow: 1;
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Bottom bar styling */
+.bottom {
+  width: 90%;
+  height: 42px;
+  border-radius: 71px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px auto;
+  background-color: rgba(153, 83, 241, 1);
+  position: relative;
+}
+
+.add-text {
+  flex: 1;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.plus {
+  background-color: rgba(170, 104, 254, 1);
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 24px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+.delete-icon {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  margin-left: 12px;
+}
+
+
+
+/* Sort iconları hər zaman görünəcək */
+.sort-container {
+  position: absolute;
+  right: 35px;
+  /* sağdan məsafə */
+  top: 122px;
+  /* buranı inputun yerləşdiyi yerə görə ayarla */
+  z-index: 10;
+}
+
+/* sort iconu - inputun üst sağ tərəfində */
+.sort-icon {
+  position: absolute;
+  top: -25px;
+  /* input-un bir az yuxarısı */
+  right: 0;
+  /* inputun sağında */
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 5;
+}
+
+/* x ikonu - inputun içində sağda */
+.clear-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
