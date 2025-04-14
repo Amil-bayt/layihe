@@ -1,4 +1,4 @@
-/* Reset and basic styling */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,7 +14,7 @@ body {
   height: 100vh;
 }
 
-/* Main container styling */
+
 .box {
   width: 336px;
   background-color: #fff;
@@ -26,7 +26,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Top colored stripe */
+
 .yellow {
   background-color: rgba(255, 220, 64, 1);
   height: 28px;
@@ -34,13 +34,13 @@ body {
   border-top-right-radius: 10px;
 }
 
-/* Title styling */
+
 h1 {
   margin: 15px 0;
   font-size: 24px;
 }
 
-/* Container for the input and icons */
+
 .input-container {
   position: relative;
   width: 80%;
@@ -55,7 +55,7 @@ h1 {
   font-size: 16px;
 }
 
-/* Icon common styles */
+
 .icon {
   cursor: pointer;
 }
@@ -65,7 +65,6 @@ h1 {
   content: url('images/xhover.svg');
 }
 
-/* Sort icon positioned above the input at the right */
 .sort-icon {
   position: absolute;
   right: 0;
@@ -76,7 +75,6 @@ h1 {
 }
 
 
-/* Notes container styling */
 .notes {
   margin: 10px auto;
   width: 80%;
@@ -102,7 +100,6 @@ h1 {
   color: #333;
 }
 
-/* Bottom bar styling */
 .bottom {
   width: 90%;
   height: 42px;
@@ -142,8 +139,6 @@ h1 {
   display: none;
 }
 
-
-
 .delete-icon {
   width: 18px;
   height: 18px;
@@ -152,31 +147,23 @@ h1 {
 }
 
 
-
-/* Sort iconları hər zaman görünəcək */
 .sort-container {
   position: absolute;
   right: 35px;
-  /* sağdan məsafə */
   top: 122px;
-  /* buranı inputun yerləşdiyi yerə görə ayarla */
   z-index: 10;
 }
 
-/* sort iconu - inputun üst sağ tərəfində */
 .sort-icon {
   position: absolute;
   top: -25px;
-  /* input-un bir az yuxarısı */
   right: 0;
-  /* inputun sağında */
   width: 20px;
   height: 20px;
   cursor: pointer;
   z-index: 5;
 }
 
-/* x ikonu - inputun içində sağda */
 .clear-icon {
   position: absolute;
   top: 50%;
