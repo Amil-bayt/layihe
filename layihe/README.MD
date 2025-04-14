@@ -5,11 +5,11 @@ Bu layihə HTML, CSS və JavaScript istifadə edilərək hazırlanmış sadə v�
 ## 🚀 Demo
 
 Layihənin canlı demosunu aşağıdakı linkdən izləyə bilərsiniz:  
-👉 [Demo Linki buraya əlavə edin](#)
+👉 [https://to-do-listamil.netlify.app/](#)
 
 ## 📸 Görüntülər
 
-![Todo App Screenshot](images/screenshot.png)
+
 
 ## 🔍 Əsas Xüsusiyyətlər
 
@@ -24,6 +24,4 @@ Layihənin canlı demosunu aşağıdakı linkdən izləyə bilərsiniz:
 - **HTML5**
 - **CSS3**
 - **Vanilla JavaScript (Pure JS)**
-
-## 📁 Layihə Struktur
 
