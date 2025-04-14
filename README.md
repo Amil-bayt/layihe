@@ -8,7 +8,7 @@ Layihənin canlı demosunu aşağıdakı linkdən izləyə bilərsiniz:
 👉 [https://to-do-listamil.netlify.app/](#)
 
 ## 📸 Görüntülər
-![alt text]([image.png](https://github.com/Amil-bayt/to-do-list/blob/8d80b3827ff615e1d35aaac67d67382cf259d9de/ss.jpg))
+![image alt]([image.png](https://github.com/Amil-bayt/to-do-list/blob/8d80b3827ff615e1d35aaac67d67382cf259d9de/ss.jpg))
 
 
 ## 🔍 Əsas Xüsusiyyətlər
