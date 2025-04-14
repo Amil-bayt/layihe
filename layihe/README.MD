@@ -8,7 +8,7 @@ Layihənin canlı demosunu aşağıdakı linkdən izləyə bilərsiniz:
 👉 [https://to-do-listamil.netlify.app/](#)
 
 ## 📸 Görüntülər
-
+![alt text](image.png)
 
 
 ## 🔍 Əsas Xüsusiyyətlər
