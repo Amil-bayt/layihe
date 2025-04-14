@@ -1,5 +1,5 @@
 let sortDirection = "asc"; // 'asc' = A-Z, 'desc' = Z-A
-let notes = []; // Bütün notlar burada saxlanacaq
+let notes = [];
 
 document.addEventListener("DOMContentLoaded", function () {
   const addBtn = document.getElementById("add-btn");
@@ -12,10 +12,10 @@ document.addEventListener("DOMContentLoaded", function () {
   addBtn.addEventListener("click", function () {
     const noteText = noteInput.value.trim();
     if (noteText !== "") {
-      notes.push(noteText); // Array-a əlavə et
+      notes.push(noteText);
       noteInput.value = "";
       inputContainer.classList.add("hidden");
-      renderNotes(); // Yenidən düzülüş
+      renderNotes();
     }
   });
 
@@ -28,32 +28,32 @@ document.addEventListener("DOMContentLoaded", function () {
   sortIcon.addEventListener("click", function () {
     if (sortDirection === "asc") {
       sortDirection = "desc";
-      sortIcon.src = "images/sortupwhite.svg"; // Yuxarıdan azalan sıralama
+      sortIcon.src = "images/sortupwhite.svg"; // Yuxarıdan
     } else {
       sortDirection = "asc";
-      sortIcon.src = "images/sortdownwhite.svg"; // Aşağıdan artan sıralama
+      sortIcon.src = "images/sortdownwhite.svg"; // Aşağıdan
     }
-    renderNotes(); // Yenidən sıralama
+    renderNotes(); 
   });
 
   // Hover effekti
   sortIcon.addEventListener("mouseover", function () {
     if (sortDirection === "asc") {
-      sortIcon.src = "images/sortdownblack.svg"; // Ascending-də hoverda sortdownblack
+      sortIcon.src = "images/sortdownblack.svg"; 
     } else {
-      sortIcon.src = "images/sortupblack.svg"; // Descending-də hoverda sortupblack
+      sortIcon.src = "images/sortupblack.svg"; 
     }
   });
 
   sortIcon.addEventListener("mouseout", function () {
     if (sortDirection === "asc") {
-      sortIcon.src = "images/sortdownwhite.svg"; // Ascending-də normalda sortdownwhite
+      sortIcon.src = "images/sortdownwhite.svg";
     } else {
-      sortIcon.src = "images/sortupwhite.svg"; // Descending-də normalda sortupwhite
+      sortIcon.src = "images/sortupwhite.svg";
     }
   });
 
-  // Notları düzənləyən funksiya
+
   function renderNotes() {
     notesContainer.innerHTML = "";
     let sortedNotes = [...notes];
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
 
       deleteIcon.addEventListener("click", () => {
-        notes = notes.filter((note) => note !== text); // Sil
+        notes = notes.filter((note) => note !== text);
         renderNotes();
       });
 
